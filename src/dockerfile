@@ -1,0 +1,5 @@
+from gcc
+copy . /usr/src/app
+workdir /usr/src/app
+run gcc -std=c17 -o server server.c
+CMD ["./server"]

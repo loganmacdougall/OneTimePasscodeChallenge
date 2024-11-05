@@ -74,6 +74,8 @@ char *create_random_passcode() {
   return passcode;
 }
 
+// NOTHING BELOW IS NEEDED TO SOLVE THE CHALLENGE
+
 // Cleans user input, mainly for removing enter space, but also other
 // non-printable characters
 int clean_input(char *buffer, size_t buffer_len) {
